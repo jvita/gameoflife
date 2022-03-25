@@ -17,3 +17,7 @@ This repository is intended to be used as an example of how to properly document
 ```
 pip install sphinx_rtd_theme
 ```
+
+# Other minor amendments
+
+1. When setting up github pages, change your Sphinx [Makefile](https://github.com/jvita/gameoflife/blob/master/docs/Makefile) to have the line `BUILDDIR      = .` instead of `BUILDDIR      = docs` as specified in the linked tutorial. This will also affect the contents of [docs/index.html](<meta http-equiv="refresh" content="0; url=./html/index.html" />).
