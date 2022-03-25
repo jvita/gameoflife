@@ -12,3 +12,8 @@ This repository is intended to be used as an example of how to properly document
 * [Python unit testing in VSCode](https://code.visualstudio.com/docs/python/testing#_tests-in-unittest)
 * [argparse](https://docs.python.org/3/library/argparse.html)
 * [typing](https://docs.python.org/3/library/typing.html)
+
+# Other packages you may need
+```
+pip install sphinx_rtd_theme
+```
