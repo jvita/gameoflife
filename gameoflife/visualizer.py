@@ -1,24 +1,6 @@
 class Visualizer:
 
     def __init__(self, board, method, symbol='o', img=None):
-        """
-        Args:
-
-            board (:class:`~gameoflife.board.Board`):
-                The game board
-
-            method (str):
-                One of 'matplotlib' or 'console'
-
-            symbol (str):
-                The symbol to use for a live cell if :attr:`method` is 'console'
-
-            img (matplotlib.image.AxesImage, optional):
-                The image axis to use for plotting. Only required if
-                :attr:`method` is 'matplotlib'
-
-        """
-
         self.board  = board
         self.method = method
         self.s      = symbol
@@ -34,7 +16,6 @@ class Visualizer:
 
 
     def show(self):
-        """Displays the board using the provided :attr:`method`"""
 
         if self.method == 'console':
             n, m = self.board._board.shape
