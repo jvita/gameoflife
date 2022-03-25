@@ -4,7 +4,7 @@ class Visualizer:
         """
         Args:
 
-            board (:class:`~gol.board.Board`):
+            board (:class:`~gameoflife.board.Board`):
                 The game board
 
             method (str):

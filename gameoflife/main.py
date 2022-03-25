@@ -120,7 +120,7 @@ def main():
         board.update()
         clear()
         visualizer.show()
-        time.sleep(0.1)
+        # time.sleep(0.05)
 
     if args.output == 'matplotlib':
         ani = animation.FuncAnimation(
