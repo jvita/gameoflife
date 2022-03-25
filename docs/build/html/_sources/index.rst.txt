@@ -22,4 +22,5 @@ document and package Python code.
    :maxdepth: 2
    :caption: Contents:
 
+   installation
    classes
