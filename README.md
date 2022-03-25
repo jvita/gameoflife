@@ -2,7 +2,7 @@
 A basic Python implementation of the classic game of life
 
 # Usage
-This repository is intended to be used as an example of how to properly document and package Python code. See the `undocumented` branch to switch to the version that doesn't have any documentation or packaging.
+This repository is intended to be used as an example of how to properly document and package Python code. See the [undocumented](https://github.com/jvita/gameoflife/tree/undocumented) branch to switch to the version that doesn't have any documentation or packaging.
 
 # Resources
 * [“A practical guide to using setup.py”](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/)
